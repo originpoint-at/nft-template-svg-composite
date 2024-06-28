@@ -1,0 +1,94 @@
+template: svg_composite
+engine: 0.1.0
+config:
+  mime: image/svg+xml
+  size:
+    width: 512
+    height: 512
+suites:
+  - name: graphic
+    layers:
+      - name: 01_circle
+        items:
+          - image: circle_01.svg
+            display_type: string
+            trait_type: circle
+            value: circle_01
+          - image: circle_02.svg
+            display_type: string
+            trait_type: circle
+            value: circle_02
+          - image: circle_03.svg
+            display_type: string
+            trait_type: circle
+            value: circle_03
+          - image: circle_04.svg
+            display_type: string
+            trait_type: circle
+            value: circle_04
+          - image: circle_05.svg
+            display_type: string
+            trait_type: circle
+            value: circle_05
+          - image: circle_06.svg
+            display_type: string
+            trait_type: circle
+            value: circle_06
+          - image: circle_07.svg
+            display_type: string
+            trait_type: circle
+            value: circle_07
+          - image: circle_08.svg
+            display_type: string
+            trait_type: circle
+            value: circle_08
+          - image: circle_09.svg
+            display_type: string
+            trait_type: circle
+            value: circle_09
+          - image: circle_10.svg
+            display_type: string
+            trait_type: circle
+            value: circle_10
+      - name: 02_shape
+        items:
+          - image: shape_01.svg
+            display_type: string
+            trait_type: shape
+            value: shape_01
+          - image: shape_02.svg
+            display_type: string
+            trait_type: shape
+            value: shape_02
+          - image: shape_03.svg
+            display_type: string
+            trait_type: shape
+            value: shape_03
+          - image: shape_04.svg
+            display_type: string
+            trait_type: shape
+            value: shape_04
+          - image: shape_05.svg
+            display_type: string
+            trait_type: shape
+            value: shape_05
+          - image: shape_06.svg
+            display_type: string
+            trait_type: shape
+            value: shape_06
+          - image: shape_07.svg
+            display_type: string
+            trait_type: shape
+            value: shape_07
+          - image: shape_08.svg
+            display_type: string
+            trait_type: shape
+            value: shape_08
+          - image: shape_09.svg
+            display_type: string
+            trait_type: shape
+            value: shape_09
+          - image: shape_10.svg
+            display_type: string
+            trait_type: shape
+            value: shape_10
